@@ -1,4 +1,4 @@
-from tokens import Tokens
+from src.tokens import Tokens
 from dotenv import load_dotenv
 
 load_dotenv()
