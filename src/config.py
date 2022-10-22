@@ -10,7 +10,7 @@ class Config:
     DEBUG_SERVER = ''
 
     REPOSITORY = 'nuthouse'
-    HOST_URL = "https://ac97-176-59-207-96.eu.ngrok.io"
+    HOST_URL = "http://94.103.93.53"
     PORT_APP = 80
     PORT_CI_CD = 8080
 
