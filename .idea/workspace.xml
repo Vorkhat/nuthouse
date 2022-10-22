@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42bd47b3-5d14-46a0-88d8-9e584659a7c4" name="Changes" comment="add custom ci_cd updater" />
+    <list default="true" id="42bd47b3-5d14-46a0-88d8-9e584659a7c4" name="Changes" comment="add postgresql">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql_init/docker_postgres_init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/telegram/common/db/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/telegram/common/db/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/telegram/common/sqlalchemy/transaction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tokens.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/zekad/IdeaProjects/Telegram",
+    "last_opened_file_path": "C:/Users/zekad/IdeaProjects/TelegramProject/.env",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -57,6 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1666297343566</updated>
       <workItem from="1666297345261" duration="1764000" />
+      <workItem from="1666357297445" duration="1569000" />
+      <workItem from="1666415827002" duration="1318000" />
     </task>
     <task id="LOCAL-00001" summary="create project (add fast api and connection telegram)">
       <created>1666299034849</created>
@@ -72,7 +84,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666299101259</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="renamed from ci_cd.py">
+      <created>1666357368900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666357368900</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add docker">
+      <created>1666357795386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666357795386</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix patch in config.py">
+      <created>1666362686695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666362686695</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +125,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project (add fast api and connection telegram)" />
     <MESSAGE value="add custom ci_cd updater" />
-    <option name="LAST_COMMIT_MESSAGE" value="add custom ci_cd updater" />
+    <MESSAGE value="renamed from ci_cd.py" />
+    <MESSAGE value="add docker" />
+    <MESSAGE value="fix patch in config.py" />
+    <MESSAGE value="add postgresql" />
+    <option name="LAST_COMMIT_MESSAGE" value="add postgresql" />
   </component>
 </project>
