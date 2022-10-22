@@ -1,6 +1,6 @@
 from typing import Optional
 from pydantic import BaseModel, Field
-from media import (
+from .media import (
     ChatPhoto, Audio, Voice, Video,
     VideoNote, PhotoSize, Document, Sticker
 )
